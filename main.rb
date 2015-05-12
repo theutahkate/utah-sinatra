@@ -20,8 +20,3 @@ get '/projects' do
   @projects = "selected"
   erb :projects 
 end
-
-# this renders header and general page formatting, as well as the text 'operationstormthecastle.com'
-get '/blog' do
-  erb "operationstormthecastle.blogspot.com", :blog => :post
-end
