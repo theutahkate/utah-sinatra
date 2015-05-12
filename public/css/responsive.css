@@ -101,6 +101,10 @@ nav li:last-child {
   border-right: none;
 }
 
+/*-----^^^End Header^^^-----*/
+
+/*-------Projects Page--------*/
+
 figcaption {
   text-align: center;
 }
@@ -167,23 +171,32 @@ aside img {
   border-radius: 20%;
 }
 
+footer {
+  background-color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 6%;
+}
+
 footer p {
   float: left;
   text-align: center;
   width: 100%;
+  font-size: 1.25em;
 }
 
-footer {
-  margin-top: 20px;
-  width: 35%;
+address {
+  width: 60%;
   margin: 0 auto;
 }
 
+
+address a {
+  padding: 6%;
+}
+
 .social-icon {
-  float: left;
-  width: 50px;
-  padding: 20px;
-  margin-bottom: -20px;
+  width: 12%;
 }
 
 /*-------Resume Page---------*/
