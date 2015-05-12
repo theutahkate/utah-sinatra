@@ -62,7 +62,7 @@ nav {
   margin-left: -3%;
   float: left;
   padding-top: 0;
-  padding-left: 3%;
+  padding-left: 3.25%;
   border-top: 1px solid #797774;
   width: 105%;
 }
@@ -189,7 +189,7 @@ footer {
 /*-------Resume Page---------*/
 
 h2 {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 3rem;
   text-align: center;
   width: 100%;
@@ -199,7 +199,7 @@ h2 {
   clear: both;
   margin: 0 7%;
   width: 100%;
-  padding-bottom: 53%;
+  padding-bottom: 63%;
 }
 
 .skills h2 {
@@ -219,7 +219,7 @@ h2 {
 
 .skills-col h3 {
   padding-left: 2%;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 400;
   width: 29%;
   color: #fff;
@@ -379,34 +379,47 @@ h2 {
   margin: -1.5% 0;
 }
 
-/*----------Responsive < 960px -----------*/
-@media screen and (min-width: 960px) {
-  nav {
-    /*margin-left: -6%;*/
+/*----------Responsive < 700px -----------*/
+@media screen and (max-width: 700px) {
+  h1 {font-size: 3.5em;}
+  header p {font-size: 1.5em; padding-bottom: 1%;}
+  header {padding-top: 0.5%;}
+}
+
+/*----------Responsive < 550px -----------*/
+
+@media screen and (max-width: 550px) {
+  h1 {
+    margin-right: 5%; 
+    margin-bottom: -3%; 
+    line-height: .9em;
+  }
+  header p {font-size: 1.35em; padding-bottom: 0;}
+  header {padding-left: 5%;}
+  nav {margin-left: -4.5%;}
+
+  .skills-col {
+  width: 79%;
+  font-size: 1.25rem;
+  margin: 0 3.5%;
   }
 
+  .skills-col h3 {
+  font-size: 1.5rem;
+  width: 79%;
+  line-height: 120%;
+  }
 
+  .skills-col div {
+  height: 70px;
+  }
+
+  .skills h2 {
+    color: #fff;
+    margin: 4% 0 1% -7%;
+  }
+
+  #tool-col {
+    height: 40px;
+  }
 }
-
-/*----------Responsive < 768px -----------*/
-
-@media screen and (max-width: 768px) {
-  
-
-}
-
-/*----------Responsive < 660px -----------*/
-
-/*change line-height in skills, smaller li, 
-wider columns? (maybe wider cols in 768?)*/
-
-/*or just single column I guess*/
-
-
-
-/*----------Responsive < 535px? -----------*/
-
-/*smaller fonts in header, take out kate, 
-get the line-height right on h1, single skills col,
-where to put nav? (Hamburger? If time?)*/
-
