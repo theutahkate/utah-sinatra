@@ -111,29 +111,27 @@ figcaption {
 }
 
 .projects {
-  margin-left: -2.5%;
-  margin-top: -30px;
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0;
 }
 
 
 .projects li {
-  width: 28.3333%;
-  height: 400px;
-  margin: 2%;
+  width: 18.75rem;
+  height: 25rem;
+  margin: 1.5rem;
   float: left;
   display: inline-block;
   background-color: #797774;
   border: 2px solid #292929;
 }
 
-#meter-quest {
+#meter-quest, #snape {
   width: 120%;
   margin-left: -10%; 
-}
-
-#snape {
-  width: 120%;
-  margin-left: -10%;
 }
 
 #stc, #devskeet {
@@ -467,6 +465,28 @@ h2 {
 
 .degree {
   margin: -1.5% 0;
+}
+
+/*----------Responsive < 94rem -----------*/
+@media screen and (min-width: 95rem) {
+  .projects li:nth-child(4n+5) {clear: both;}
+}
+
+/*----------Responsive < 94rem -----------*/
+@media screen and (max-width: 94rem) and (min-width: 71rem) {
+  .projects li:nth-child(3n+4) {clear: both;}
+}
+
+/*----------Responsive < 70rem -----------*/
+
+@media screen and (max-width: 70rem) and (min-width: 47rem) {
+  .projects li:nth-child(2n+3) {clear:both;}
+}
+
+/*----------Responsive < 46rem -----------*/
+
+@media screen and (max-width: 46rem) {
+  .projects li:nth-child(n+2) {clear: both;}
 }
 
 /*----------Responsive < 700px -----------*/
