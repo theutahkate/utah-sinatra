@@ -206,8 +206,7 @@ aside figcaption {
   padding: 6% 4%;
   border-bottom: 1px solid #CBCACA;
   border-top: 1px solid #CBCACA;
-  margin-top: -1.25%;
-  font-size: 1.1rem;
+  margin-top: -1.5%;
 }
 
 .interests {
@@ -226,6 +225,7 @@ aside figure {
 
 aside img {
   width: 100%;
+  z-index: -1;
 }
 
 
@@ -233,7 +233,6 @@ aside img {
 
 footer {
   clear: left;
-  background-color: #fff;
   width: 100%;
   margin: 10% auto 0;
   padding: 0%;
