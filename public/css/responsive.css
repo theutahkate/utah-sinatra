@@ -9,10 +9,7 @@ body {
   color: #fff;
 }
 
-#container {
-  /*margin: 0 0 0 3%;*/
-  margin: 0 auto;
-}
+#container {margin: 0 auto;}
 
 .cf:before,
 .cf:after {
@@ -20,18 +17,12 @@ body {
     display: table; /* 2 */
 }
 
-.cf:after {
-    clear: both;
-}
+.cf:after {clear: both;}
 
-.cf {
-    zoom: 1;
-}
+.cf {zoom: 1;}
 
 
-.header {
-  text-decoration: none;
-}
+.header {text-decoration: none;}
 
 header {
   background-color: #000;
@@ -74,14 +65,9 @@ nav ul {
   padding-left: 0;
 }
 
-nav a {
-  text-decoration: none;
-  color: #797774;
-}
+nav a {text-decoration: none; color: #797774;}
 
-nav a:hover {
-  color: #fff;
-}
+nav a:hover {color: #fff;}
 
 .selected, .selected:hover {
   color: #951533;
@@ -98,17 +84,280 @@ nav li {
   font-weight: 200;
 }
 
-nav li:last-child {
-  border-right: none;
-}
+nav li:last-child {border-right: none;}
 
 /*-----^^^End Header^^^-----*/
 
-/*-------Projects Page--------*/
 
-figcaption {
+/*--------footer---------*/
+
+footer {
+  clear: left;
+  padding: 0%;
+  border-top: 1px solid #fff;
+}
+
+address {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 4%;
+}
+
+address a {text-decoration: none; color: #fff;}
+
+address a:hover {color: #000;}
+
+address i {padding: 0 3%;}
+
+address p {
+  text-align: center;
+  width: 100%;
+  font-style: normal;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 3%;
+}
+
+
+/*---^^^End Footer^^^---*/
+
+
+
+/*--------About--------*/
+.col-left {
+  width: 34%;
+  margin: 2% 2% 5% 3%;
+  float: left;
+  font-weight: 200;
+  color: #fff;
+  border-top: 1px solid #CBCACA;
+  border-bottom: 1px solid #CBCACA;
+}
+
+.col-right {
+  width: 56%;
+  margin: -2% 3% 0 2%;
+  float: left;
+  font-size: 1.25em;
+  font-weight: 200;
+}
+
+.col-right h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.col-right p {text-align: justify;}
+
+.col-right p:last-child {
+  font-size: 1.35em;
+  font-weight: 400;
   text-align: center;
 }
+
+span {font-style: italic;}
+
+p span {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #951533;
+}
+
+aside figcaption {
+  background-color: #292929;
+  padding: 6% 4%;
+  border-bottom: 1px solid #CBCACA;
+  border-top: 1px solid #CBCACA;
+  margin-top: -1.25%;
+}
+
+.interests {
+  background-color: #292929;
+  padding: 6% 8%;
+}
+
+aside p {font-size: 1.25rem; line-height: 1.5em;}
+
+aside figure {margin: 0;}
+
+aside img {width: 100%;}
+
+/*-----^^^End About^^^-----*/
+
+
+
+/*-------Resume---------*/
+
+h2 {
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+}
+
+.skills {
+  clear: both;
+  margin: 0 7%;
+  width: 100%;
+  padding-bottom: 45%;
+}
+
+.skills h2 {color: #fff; margin: 4% 0 -1% -7%;}
+
+.skills-col {
+  width: 29%;
+  color: #fff;
+  float: left;
+  font-weight: 200;
+  font-size: 1.25rem;
+  margin: 0 7%;
+  line-height: 200%;
+}
+
+.skills-col h3 {
+  padding-left: 2%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 29%;
+  color: #fff;
+}
+
+.skills-col div {
+  border-bottom: 3px solid rgba(41, 41, 41, .75);
+  height: 150px;
+}
+
+#tool-col {line-height: 1000%;}
+
+/*------Resume: Experience------*/
+
+.experience {
+  clear: left;
+  background-color: white;
+  margin: 0 -3%;
+  padding: 0 10% 8% 5%;
+  margin-bottom: -4%;
+  color: black;
+  border-top: 1px solid #000;
+}
+
+.experience h2 {color: #951533;}
+
+.experience h3, .community h3, .education h3 {
+  padding-left: 2%;
+  font-weight: 600;
+  color: #951533;
+  font-size: 1.75em;
+}
+
+.job, .vol-job {padding-bottom: 1%;}
+
+.dates {
+  margin-top: -3%;
+  padding-left: 5%;
+  font-weight: 200;
+  font-size: 1.2em;
+  color: #951533;
+}
+
+.blurb {
+  padding-left: 7%;
+  font-size: 1.1em;
+  margin: -1% 0;
+}
+
+.experience h4, .education h4 {
+  padding-left: 5%;
+  font-size: 1.2em;
+  color: #951533;
+  font-weight: 200;
+}
+
+.experience h4 {margin-bottom: 1.5%;}
+
+.experience ul {
+  padding-left: 9%;
+  font-size: 1.1em;
+  line-height: 150%;
+  margin-top: -1%;
+}
+
+.charfix {font-size: 1.2em;}
+
+/*-----Resume: Community Involvement-----*/
+
+.community {
+  clear: left;
+  background-color: #CBCACA;
+  color: #951533;
+  margin: 0 -3%;
+  padding: 0 10% 7% 5%;
+  border-top: 1px solid #292929;
+  margin-bottom: -4%;
+}
+
+.community h2, .community h3 {color: #292929;}
+
+.community .dates {color: #292929;}
+
+.community .blurb {color: #292929;}
+
+.community ul {
+  margin-top: 3%;
+  padding-left: 11%;
+  font-size: 1.1em;
+  line-height: 130%;
+  font-weight: 600;
+}
+
+/*------Resume: Education------*/
+
+.education {
+  background-color: #000;
+  color: #797774;
+  clear: left; /*do i need this?*/
+  margin: 0 -3%;
+  padding: 0 10% 7% 5%;
+  border-top: 1px solid #fff;
+}
+
+.education h3, .education h4 {color: #797774;}
+
+.education h4 {font-weight: 600; color: #CBCACA;}
+
+.education ul {
+  padding-left: 9%;
+  font-size: 1.1em;
+  line-height: 150%;
+  margin-top: -1%;
+  list-style: none;
+  color: #CBCACA;
+  font-weight: 200;
+}
+
+.education a {color: #951533;font-weight: 400;}
+
+.education a:hover {color: #797774;}
+
+.education p {
+  margin-top: -3%;
+  padding-left: 7%;
+  font-weight: 200;
+  font-size: 1.1em;
+  color: #797774;
+}
+
+.degree {margin: -1.5% 0;}
+
+/*---^^End Resume^^---*/
+
+
+
+/*-----Projects------*/
+
+figcaption {text-align: center;}
 
 .projects {
   margin: auto;
@@ -118,6 +367,7 @@ figcaption {
   padding: 0;
 }
 
+.projects {margin-bottom: 3%;}
 
 .projects li {
   width: 18.75rem;
@@ -151,321 +401,9 @@ figcaption {
   margin-bottom: 5%;
   border: 1px solid #292929;
 }
-/*---^^End Projects Page^^---*/
+/*---^^End Projects^^---*/
 
 
-/*--------About Page--------*/
-.col-left {
-  width: 34%;
-  margin: 2% 2% 0 3%;
-  float: left;
-  font-weight: 200;
-  color: #fff;
-  border-top: 1px solid #CBCACA;
-  border-bottom: 1px solid #CBCACA;
-}
-
-.col-right {
-  width: 56%;
-  margin: -2% 3% 0 2%;
-  float: left;
-  font-size: 1.25em;
-  font-weight: 200;
-}
-
-.col-right h2 {
-  font-size: 2.5em;
-  font-weight: 600;
-}
-
-.col-right p {
-  text-align: justify;
-}
-
-.col-right p:last-child {
-  font-size: 1.35em;
-  font-weight: 400;
-  text-align: center;
-}
-
-span {
-  font-style: italic;
-}
-
-p span {
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 400;
-  color: #951533;
-}
-
-aside figcaption {
-  background-color: #292929;
-  padding: 6% 4%;
-  border-bottom: 1px solid #CBCACA;
-  border-top: 1px solid #CBCACA;
-  margin-top: -1.5%;
-}
-
-.interests {
-  background-color: #292929;
-  padding: 6% 8%;
-}
-
-aside p {
-  font-size: 1.25rem;
-  line-height: 1.5em;
-}
-
-aside figure {
-  margin: 0;
-}
-
-aside img {
-  width: 100%;
-  z-index: -1;
-}
-
-
-/*--------footer---------*/
-
-footer {
-  clear: left;
-  width: 100%;
-  margin: 10% auto 0;
-  padding: 0%;
-}
-
-address p {
-  float: left;
-  text-align: center;
-  width: 100%;
-  font-style: normal;
-  color: #fff;
-}
-
-address {
-  width: 50%;
-  margin: 0 auto;
-}
-
-
-address img {
-  
-}
-
-address a:first-child {
-  
-}
-
-/*.icon-github {
-  color: white;
-  font-family: "FontAwesome";
-  width: 5px;
-  height: 32px;
-  font-size: 14px;
-  font-style: normal;
-  display: block;
-}*/
-
-/*.social-icon {
-  display: inline-block;
-  margin: 0 2%;
-  width: 5%;
-}*/
-
-/*-------Resume Page---------*/
-
-h2 {
-  font-weight: 400;
-  font-size: 3rem;
-  text-align: center;
-  width: 100%;
-}
-
-.skills {
-  clear: both;
-  margin: 0 7%;
-  width: 100%;
-  padding-bottom: 45%;
-}
-
-.skills h2 {
-  color: #fff;
-  margin: 4% 0 -1% -7%;
-}
-
-.skills-col {
-  width: 29%;
-  color: #fff;
-  float: left;
-  font-weight: 200;
-  font-size: 1.25rem;
-  margin: 0 7%;
-  line-height: 200%;
-}
-
-.skills-col h3 {
-  padding-left: 2%;
-  font-size: 1.5rem;
-  font-weight: 400;
-  width: 29%;
-  color: #fff;
-}
-
-.skills-col div {
-  border-bottom: 3px solid rgba(41, 41, 41, .75);
-  height: 150px;
-}
-
-#tool-col {
-  line-height: 1000%;
-}
-
-
-
-/*----------Experience-----------*/
-
-.experience {
-  clear: left;
-  background-color: white;
-  margin: 0 -3%;
-  padding: 0 10% 8% 5%;
-  margin-bottom: -4%;
-  color: black;
-  border-top: 1px solid #000;
-}
-
-.experience h2 {
-  color: #951533;
-}
-
-.experience h3, .community h3, .education h3 {
-  padding-left: 2%;
-  font-weight: 600;
-  color: #951533;
-  font-size: 1.75em;
-}
-
-.job, .vol-job {
-  padding-bottom: 1%;
-}
-
-.dates {
-  margin-top: -3%;
-  padding-left: 5%;
-  font-weight: 200;
-  font-size: 1.2em;
-  color: #951533;
-}
-
-.blurb {
-  padding-left: 7%;
-  font-size: 1.1em;
-  margin: -1% 0;
-}
-
-.experience h4, .education h4 {
-  padding-left: 5%;
-  font-size: 1.2em;
-  color: #951533;
-  font-weight: 200;
-}
-
-.experience h4 {margin-bottom: 1.5%;}
-
-.experience ul {
-  padding-left: 9%;
-  font-size: 1.1em;
-  line-height: 150%;
-  margin-top: -1%;
-}
-
-.charfix {
-  font-size: 1.2em;
-}
-
-/*---------Community Involvement----------*/
-
-.community {
-  clear: left;
-  background-color: #CBCACA;
-  color: #951533;
-  margin: 0 -3%;
-  padding: 0 10% 7% 5%;
-  border-top: 1px solid #292929;
-  margin-bottom: -4%;
-}
-
-.community h2, .community h3 {
-  color: #292929; 
-}
-
-.community .dates {
-  color: #292929;
-  /*color: #951533;*/
-}
-
-.community .blurb {
-  color: #292929;
-  /*color: #951533;*/
-}
-
-.community ul {
-  margin-top: 3%;
-  padding-left: 11%;
-  font-size: 1.1em;
-  line-height: 130%;
-  font-weight: 600;
-}
-
-/*----------Education-----------*/
-
-.education {
-  background-color: #000;
-  color: #797774;
-  clear: left; /*do i need this?*/
-  margin: 0 -3%;
-  padding: 0 10% 7% 5%;
-  border-top: 1px solid #fff;
-}
-
-.education h3, .education h4 {
-  color: #797774;
-}
-
-.education h4 {font-weight: 600; color: #CBCACA;}
-
-.education ul {
-  padding-left: 9%;
-  font-size: 1.1em;
-  line-height: 150%;
-  margin-top: -1%;
-  list-style: none;
-  color: #CBCACA;
-  font-weight: 200;
-}
-
-.education a {
-  color: #951533;
-  font-weight: 400;
-}
-
-.education a:hover {
-  color: #797774;
-}
-
-.education p {
-  margin-top: -3%;
-  padding-left: 7%;
-  font-weight: 200;
-  font-size: 1.1em;
-  color: #797774;
-}
-
-.degree {
-  margin: -1.5% 0;
-}
 
 /*----------Responsive < 94rem -----------*/
 @media screen and (min-width: 95rem) {
@@ -495,18 +433,14 @@ h2 {
   header p {font-size: 1.5em; padding-bottom: 1%;}
   header {padding-top: 0.5%;}
   p span {font-size: 1.75rem;}
+
   aside p {
     font-size: 1.2rem;
     line-height: 1.2em;
   }
-  figcaption {
-    margin-top: -2%;
-    font-size: 1rem; 
-  }
-  .col-right {
-    font-size: 1.1rem;
-  }
+  figcaption {margin-top: -2%; font-size: 1rem;}
 
+  .col-right {font-size: 1.1rem;}
 }
 
 /*----------Responsive < 550px -----------*/
@@ -533,18 +467,13 @@ h2 {
   line-height: 120%;
   }
 
-  .skills-col div {
-  height: 70px;
-  }
+  .skills-col div {height: 70px;}
 
-  .skills h2 {
-    color: #fff;
-    margin: 4% 0 1% -7%;
-  }
+  .skills h2 {color: #fff; margin: 4% 0 1% -7%;}
 
-  #tool-col {
-    height: 40px;
-  }
+  #tool-col {height: 40px;}
+
+
   /*------resp<500 about page-----*/
   .col-left {border: none;}
   .col-left, .col-right {width: 80%; margin: 0 10%;}
@@ -552,8 +481,8 @@ h2 {
     border-top: 1px solid #CBCACA;
     border-bottom: 1px solid #CBCACA;
   }
-  aside figcaption, .interests {
-    display: none;
-  }
+  header {text-align: center;}
+  aside figcaption, .interests {display: none;}
+
   .about h2 {margin: 5% auto 0%;}
 }
