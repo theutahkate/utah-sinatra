@@ -255,7 +255,7 @@ h2 {
 .job, .vol-job {padding-bottom: 1%;}
 
 .dates {
-  margin-top: -3%;
+  margin-top: -2%;
   padding-left: 5%;
   font-weight: 200;
   font-size: 1.2em;
@@ -342,14 +342,14 @@ h2 {
 .education a:hover {color: #797774;}
 
 .education p {
-  margin-top: -3%;
+  margin-top: -2%;
   padding-left: 7%;
   font-weight: 200;
   font-size: 1.1em;
   color: #797774;
 }
 
-.degree {margin: -1.5% 0;}
+.degree {margin: -1% 0;}
 
 /*---^^End Resume^^---*/
 
@@ -401,6 +401,12 @@ figcaption {text-align: center;}
   margin-bottom: 5%;
   border: 1px solid #292929;
 }
+
+#quadratic {
+  width: 120%;
+  margin: 6% 0 15% -10%;
+  height: 210px;
+}
 /*---^^End Projects^^---*/
 
 
@@ -434,10 +440,8 @@ figcaption {text-align: center;}
   header {padding-top: 0.5%;}
   p span {font-size: 1.75rem;}
 
-  aside p {
-    font-size: 1.2rem;
-    line-height: 1.2em;
-  }
+  aside p {font-size: 1.2rem;line-height: 1.2em;}
+
   figcaption {margin-top: -2%; font-size: 1rem;}
 
   .col-right {font-size: 1.1rem;}
