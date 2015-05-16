@@ -154,6 +154,7 @@ address p {
   font-size: 1.35em;
   font-weight: 400;
   text-align: center;
+  margin-top: 10%;
 }
 
 span {font-style: italic;}
@@ -169,8 +170,8 @@ aside figcaption {
   background-color: #292929;
   padding: 6% 4%;
   border-bottom: 1px solid #CBCACA;
-  border-top: 1px solid #CBCACA;
-  margin-top: -1.25%;
+  /*border-top: 1px solid #CBCACA;*/
+  margin-top: -2%;
 }
 
 .interests {
@@ -182,7 +183,8 @@ aside p {font-size: 1.25rem; line-height: 1.5em;}
 
 aside figure {margin: 0;}
 
-aside img {width: 100%;}
+aside img {width: 100%; border-bottom: 1px solid #CBCACA;}
+
 
 /*-----^^^End About^^^-----*/
 
@@ -284,7 +286,7 @@ h2 {
   margin-top: -1%;
 }
 
-.charfix {font-size: 1.2em;}
+.charfix {font-size: 1.2em; color: black;}
 
 /*-----Resume: Community Involvement-----*/
 
