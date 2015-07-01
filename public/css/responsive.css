@@ -170,7 +170,7 @@ aside figcaption {
   background-color: #292929;
   padding: 6% 4%;
   border-bottom: 1px solid #CBCACA;
-  /*border-top: 1px solid #CBCACA;*/
+  font-size: 1em;
   margin-top: -2%;
 }
 
@@ -351,8 +351,15 @@ h2 {
   color: #797774;
 }
 
-.degree {margin: -1% 0;}
+.degree {margin: -2% 0;}
 
+h4 span {
+  color: #797774;
+  font-weight: 200;
+  font-size: 1em;
+  font-style: normal;
+  margin-left: 5%;
+}
 /*---^^End Resume^^---*/
 
 
