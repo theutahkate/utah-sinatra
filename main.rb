@@ -25,6 +25,9 @@ get '/projects' do
 end
 
 get '/stars' do
-  
+  @index = ""
+  @resume = ""
+  @projects = ""
+  @stars = "selected"
   erb :stars
 end

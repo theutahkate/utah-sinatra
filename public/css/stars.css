@@ -3,10 +3,6 @@
 -moz-box-sizing: border-box;}
 
 
-a {color: #fff;}
-h1, h2, h3 {color: #fff;}
-footer {color: #fff;}
-
 body {
   font-family: "Gruppo", Arial, sans-serif;
   margin: 0;
@@ -30,13 +26,14 @@ body {
 header {
   width: 100%;
   margin-bottom: 4%;
+  margin-top: 8%;
   /*border-bottom: 1px solid #797774;*/
-  /*padding: 1% 2% 2% 0%;*/
+
 }
 
 h1 {
-  /*margin-bottom: -25px;
-  margin-top: 3.5%;*/
+  margin-bottom: -25px;
+  /*margin-top: 3.5%;*/
   font-size: 4.25rem;
   font-weight: 400;
   color: #fff;
@@ -45,7 +42,7 @@ h1 {
 
 header p {
   text-decoration: none;
-  color: #797774;
+  color: #80d0f7;
   font-weight: bold; 
   font-size: 1.75rem;
   /*margin-left: 0.5%;
@@ -55,38 +52,41 @@ header p {
 
 nav {
   position: absolute;
-  top: 0;
-  float: left;
-  /*left: 50%;*/
+  top: 2%;
   width: 100%;
   font-size: 1.2rem;
   margin: 0 auto;
 }
 
 nav ul {
-  clear: left;
   float: left;
-  /*margin: 0 auto;*/
   padding: 0;
   margin: 0;
   position: relative;
   left: 50%;
 }
 
-nav a {
-  text-decoration: none;
+nav a {text-decoration: none; color: #fff;}
+
+nav a:hover {
+  color: #80d0f7;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 10px;
+
+}
+
+.selected, .selected:hover {
+  color: #951533;
+  font-weight: 600;
 }
 
 nav li { 
   position: relative;
   right: 50%;
-  padding: 0 12px 0 5px;
-   
+  padding: 2% 30px; 
   /*border-right: 2px solid #fff;*/
   display: inline-block;
-  font-size: 1.25em;
-  
-  
+  font-size: 1.25em; 
 }
 
 .ship {
@@ -113,7 +113,7 @@ nav li {
   to {background-position: -10000px 5000px;}
 }
 
-.stars, .twinkling {
+/*.stars, .twinkling {
   position:absolute;
   top:0;
   left:0;
@@ -123,7 +123,7 @@ nav li {
   height:100%;
   display:block;
 }
-
+*/
 .stars {
   background: #000 url("../images/stars.png") repeat top center;
   z-index:-10;
