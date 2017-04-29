@@ -48,7 +48,7 @@
 .t {
   top: 154px;
   left: 151px;
-  max-height: 125px;
+  max-height: 200px;
 }
 
 .a {
@@ -78,11 +78,17 @@
   to    { opacity: 1; }
 }
 
+@include keyframes(nav-fade-in) {
+  0%    { opacity: 0; }
+  40%   { opacity: 0; }
+  100%  { opacity: 1; }
+}
 
 .u, .h { @include animation('move-horizontal 5s 1'); }
 .t, .a { @include animation('move-vertical 5s 1'); }
 
 .animation-name { @include animation('fade-in 5s 1'); }
+.nav-links, .header-name { @include animation('nav-fade-in 5s 1'); }
 
 
 // For chaining animations:
