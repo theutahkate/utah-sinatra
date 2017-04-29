@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 
-.animation-name{
+.animation-name {
   position: absolute;
   left: 0;
   top: 0;
@@ -32,10 +32,12 @@
 
 .horizontal {
   border-bottom: 3px solid #fff;
+  width: 100%;
 }
 
 .vertical {
   border-right: 3px solid #fff;
+  height: 100%;
 }
 
 .u {
@@ -46,10 +48,11 @@
 .t {
   top: 154px;
   left: 151px;
+  max-height: 125px;
 }
 
 .a {
-  bottom: 140px;
+  bottom: 141px;
   right: 189px;
 }
 
@@ -58,19 +61,29 @@
   left: 425px;
 }
 
-
 @include keyframes(move-horizontal) {
-  0%   { width: 1px; }
+  0%   { width: 0px; }
+  40%  { width: 0px; }
   100% { width: 100%; }
 }
 
 @include keyframes(move-vertical) {
-  0%   { height: 1px; }
+  0%   { height: 0px; }
+  40%  { height: 0px; }
   100% { height: 100%; }
 }
 
-.u, .h { @include animation('move-horizontal 1.5s 1'); }
-.t, .a { @include animation('move-vertical 1.5s 1'); }
+@include keyframes(fade-in) {
+  from  { opacity: 0; }
+  to    { opacity: 1; }
+}
+
+
+.u, .h { @include animation('move-horizontal 5s 1'); }
+.t, .a { @include animation('move-vertical 5s 1'); }
+
+.animation-name { @include animation('fade-in 5s 1'); }
+
 
 // For chaining animations:
 // @include animation('move-u .5s 1', 'next-animation .5s 1 .5s');
