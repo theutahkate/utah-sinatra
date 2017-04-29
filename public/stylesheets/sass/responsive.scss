@@ -3,10 +3,9 @@
 -moz-box-sizing: border-box;}
 
 body {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Muli", Arial, sans-serif;
   margin: 0;
-  background-color: #951533;
-  color: #fff;
+  color: #797774;
 }
 
 #container {margin: 0 auto;}
@@ -22,9 +21,10 @@ body {
 .cf {zoom: 1;}
 
 
-.header {text-decoration: none;}
+.header-link {text-decoration: none;}
 
 header {
+  text-align: center;
   background-color: #000;
   width: 100%;
   float: left;
@@ -33,51 +33,38 @@ header {
   padding: 1% 2% 2% 3%;
 }
 
-h1 {
+.header-name {
   margin-bottom: -25px;
   margin-top: 3%;
-  font-size: 4.25rem;
+  font-size: 1.25rem;
   font-weight: 400;
   color: #fff;
 }
 
-header p {
-  text-decoration: none;
-  color: #797774;
-  font-weight: 200; 
-  font-size: 1.75rem;
-  margin-left: 0.5%;
+.header-title {
+  display: block;
+  margin-bottom: 3%;
   padding-bottom: 2%;
+  font-size: 1.25rem;
+  font-weight: 200;
+  font-style: normal;
+  color: #797774;
 }
 
-nav {
-  margin-left: -3%;
-  float: left;
-  padding-top: 0;
-  padding-left: 3.25%;
-  border-top: 1px solid #797774;
-  width: 105%;
-}
-
-nav ul {
-  margin-top: 1.5%;
-  margin-bottom: -.5%;
-  padding-left: 0;
-}
 
 nav a {text-decoration: none; color: #797774;}
 
 nav a:hover {color: #fff;}
 
 .selected, .selected:hover {
-  color: #951533;
+  color: #007AD8;
   font-weight: 600;
 }
 
 nav li {
   display: inline-block;
   text-align: center;
-  padding: 0 12px 0 5px; 
+  padding: 0 12px 0 5px;
   border-right: 2px solid #fff;
   list-style: none;
   font-size: 1.25em;
@@ -390,7 +377,7 @@ figcaption {text-align: center;}
 
 #meter-quest, #snape {
   width: 120%;
-  margin-left: -10%; 
+  margin-left: -10%;
 }
 
 #stc, #devskeet {
@@ -460,8 +447,8 @@ figcaption {text-align: center;}
 
 @media screen and (max-width: 550px) {
   h1 {
-    margin-right: 5%; 
-    margin-bottom: -3%; 
+    margin-right: 5%;
+    margin-bottom: -3%;
     line-height: .9em;
   }
   header p {font-size: 1.35em; padding-bottom: 0;}
