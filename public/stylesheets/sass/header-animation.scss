@@ -32,12 +32,10 @@
 
 .horizontal {
   border-bottom: 3px solid #fff;
-  width: 100px;
 }
 
 .vertical {
   border-right: 3px solid #fff;
-  height: 100px;
 }
 
 .u {
@@ -60,3 +58,19 @@
   left: 425px;
 }
 
+
+@include keyframes(move-horizontal) {
+  0%   { width: 1px; }
+  100% { width: 100%; }
+}
+
+@include keyframes(move-vertical) {
+  0%   { height: 1px; }
+  100% { height: 100%; }
+}
+
+.u, .h { @include animation('move-horizontal 1.5s 1'); }
+.t, .a { @include animation('move-vertical 1.5s 1'); }
+
+// For chaining animations:
+// @include animation('move-u .5s 1', 'next-animation .5s 1 .5s');
