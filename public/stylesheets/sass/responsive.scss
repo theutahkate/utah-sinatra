@@ -8,7 +8,10 @@ body {
   color: #797774;
 }
 
-#container {margin: 0 auto;}
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+}
 
 .cf:before,
 .cf:after {
@@ -20,61 +23,6 @@ body {
 
 .cf {zoom: 1;}
 
-
-.header-link {text-decoration: none;}
-
-header {
-  text-align: center;
-  background-color: #000;
-  width: 100%;
-  margin-bottom: 4%;
-  border-bottom: 1px solid #797774;
-  padding: .5rem 1rem 1rem .5rem;
-}
-
-.header-name {
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: #fff;
-  text-align: left;
-  margin-bottom: 4.5rem;
-}
-
-.header-title {
-  display: block;
-  font-size: 1rem;
-  font-weight: 200;
-  font-style: normal;
-  color: #797774;
-}
-
-
-.nav a {text-decoration: none; color: #797774;}
-
-.nav a:hover {color: #fff;}
-
-.nav .selected, .nav .selected:hover {
-  color: #007AD8;
-}
-
-.nav-links {
-  margin: 0;
-  text-align: left;
-  padding-left: 0;
-}
-
-.nav-links li {
-  display: block;
-  padding: 0 12px 0 5px;
-  list-style: none;
-  font-size: 1.25rem;
-  font-weight: 200;
-  &:last-child {
-    padding-right: 0;
-  }
-}
-
-/*-----^^^End Header^^^-----*/
 
 
 /*--------footer---------*/
@@ -444,17 +392,9 @@ figcaption {text-align: center;}
   .col-right {font-size: 1.1rem;}
 }
 
-/*----------Responsive < 550px -----------*/
+/*----------Responsive < 600px -----------*/
 
-@media screen and (max-width: 550px) {
-  h1 {
-    margin-right: 5%;
-    margin-bottom: -3%;
-    line-height: .9em;
-  }
-  header p {font-size: 1.35em; padding-bottom: 0;}
-  header {padding-left: 5%;}
-  nav {margin-left: -4.5%;}
+@media screen and (max-width: 600px) {
 
   .skills-col {
   width: 79%;

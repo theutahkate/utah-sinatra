@@ -1,76 +1,13 @@
-.header-animation {
-  position: relative;
-  font-family: 'Archivo Black';
-  font-size: 140px;
-  color: white;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 3px #fff;
-  width: 436px;
-  height: 200px;
-  margin: 0 auto;
-}
-
-.animation-name {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 436px;
-  height: 200px;
-}
-
-.animation-lines {
-  left: 0;
-  top: 0;
-  position: absolute;
-  width: 436px;
-  height: 200px;
-}
-
-.line {
-  position: absolute;
-}
-
-.horizontal {
-  border-bottom: 3px solid #fff;
-  width: 100%;
-}
-
-.vertical {
-  border-right: 3px solid #fff;
-  height: 100%;
-}
-
-.u {
-  top: 56px;
-  right: 425px;
-}
-
-.t {
-  top: 154px;
-  left: 151px;
-  max-height: 200px;
-}
-
-.a {
-  bottom: 141px;
-  right: 189px;
-}
-
-.h {
-  top: 116px;
-  left: 425px;
-}
-
 @include keyframes(move-horizontal) {
   0%   { width: 0px; }
   40%  { width: 0px; }
-  100% { width: 100%; }
+  100% { width: 100vw; }
 }
 
 @include keyframes(move-vertical) {
   0%   { height: 0px; }
   40%  { height: 0px; }
-  100% { height: 100%; }
+  100% { height: 100vh; }
 }
 
 @include keyframes(fade-in) {
@@ -80,15 +17,15 @@
 
 @include keyframes(nav-fade-in) {
   0%    { opacity: 0; }
-  40%   { opacity: 0; }
+  60%   { opacity: 0; }
   100%  { opacity: 1; }
 }
 
 .u, .h { @include animation('move-horizontal 5s 1'); }
 .t, .a { @include animation('move-vertical 5s 1'); }
 
-.animation-name { @include animation('fade-in 5s 1'); }
-.nav-links, .header-name { @include animation('nav-fade-in 5s 1'); }
+.animation-name { @include animation('fade-in 8s 1'); }
+.nav-links, .h1-name { @include animation('nav-fade-in 5s 1'); }
 
 
 // For chaining animations:

@@ -1,2 +1,65 @@
-.header-animation{position:relative;font-family:'Archivo Black';font-size:140px;color:white;-webkit-text-fill-color:transparent;-webkit-text-stroke:3px #fff;width:436px;height:200px;margin:0 auto}.animation-name{position:absolute;left:0;top:0;width:436px;height:200px}.animation-lines{left:0;top:0;position:absolute;width:436px;height:200px}.line{position:absolute}.horizontal{border-bottom:3px solid #fff}.vertical{border-right:3px solid #fff;height:100px}.u{top:56px;right:425px}.t{top:154px;left:151px}.a{bottom:140px;right:189px}.h{top:116px;left:425px}.u{-webkit-animation:move-u 1.5s 1;-moz-animation:move-u 1.5s 1;-o-animation:move-u 1.5s 1;animation:move-u 1.5s 1}@-webkit-keyframes move-u{0%{width:1px}100%{width:100%}}@-moz-keyframes move-u{0%{width:1px}100%{width:100%}}@-o-keyframes move-u{0%{width:1px}100%{width:100%}}@keyframes move-u{0%{width:1px}100%{width:100%}}
-/*# sourceMappingURL=header-animation.css.map */
+/*
+Error: Undefined mixin 'keyframes'.
+        on line 1 of ./public/stylesheets/sass/header-animation.scss, in `keyframes'
+        from line 1 of ./public/stylesheets/sass/header-animation.scss
+
+1: @include keyframes(move-horizontal) {
+2:   0%   { width: 0px; }
+3:   40%  { width: 0px; }
+4:   100% { width: 100vw; }
+5: }
+6: 
+
+Backtrace:
+./public/stylesheets/sass/header-animation.scss:1:in `keyframes'
+./public/stylesheets/sass/header-animation.scss:1
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:98:in `with_mixin'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin.rb:54:in `check_for_updates'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin/rack.rb:51:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/tempfile_reaper.rb:15:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/lint.rb:49:in `_call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/lint.rb:37:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/showexceptions.rb:24:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/commonlogger.rb:33:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/chunked.rb:54:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+/Users/Owner/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/Users/Owner/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/Users/Owner/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'keyframes'.\A         on line 1 of ./public/stylesheets/sass/header-animation.scss, in `keyframes'\A         from line 1 of ./public/stylesheets/sass/header-animation.scss\A \A 1: @include keyframes(move-horizontal) {\A 2:   0%   { width: 0px; }\A 3:   40%  { width: 0px; }\A 4:   100% { width: 100vw; }\A 5: }\A 6: "; }
