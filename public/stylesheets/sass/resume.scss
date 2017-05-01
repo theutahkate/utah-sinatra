@@ -1,0 +1,92 @@
+.resume-container {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #333;
+  h3 {
+    font-weight: 100;
+    color: #007ad8;
+  }
+}
+
+
+/*ABOUT*/
+
+.about p {
+  display: inline-block;
+  width: 80%;
+  margin: 1.5rem auto 0;
+  color: #797774
+}
+
+.about h2,
+.skills h2 {
+  display: inline-block;
+  margin-right: 1rem;
+  vertical-align: top;
+}
+
+
+/*JOBS*/
+
+.job {
+  margin-left: 1rem;
+}
+
+.job--duties {
+  list-style: initial;
+  margin: .5rem auto 1.5rem;
+}
+
+.job--duties-heading {
+  font-weight: bold;
+}
+
+.nird li {
+  padding: .25rem 0;
+}
+
+.job h3 {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.job h4 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.job--dates {
+  font-size: .75rem;
+  margin: 0 auto;
+  font-weight: normal;
+  color: #666;
+}
+
+.volunteer-blurb {
+  margin: .25rem 0;
+}
+
+
+/*SKILLS*/
+
+.skills {
+  margin: 1rem 1rem 0 1.25rem;
+}
+
+/*EDUCATION*/
+
+.schools {
+  color: #007ad8;
+  width: 95%;
+}
+
+.degree,
+.degree-short {
+  float: right;
+  color: #333;
+}
+
+.degree-short {
+  display: none;
+
+}
