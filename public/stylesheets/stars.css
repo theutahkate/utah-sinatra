@@ -1,0 +1,65 @@
+/*
+Error: Undefined mixin 'keyframes'.
+        on line 1 of ./public/stylesheets/sass/stars.scss, in `keyframes'
+        from line 1 of ./public/stylesheets/sass/stars.scss
+
+1: @include keyframes(move-twink-back) {
+2:   from {background-position:0 0;}
+3:   to {background-position:-10000px 5000px;}
+4: }
+5: 
+6: @include keyframes(move-clouds-back) {
+
+Backtrace:
+./public/stylesheets/sass/stars.scss:1:in `keyframes'
+./public/stylesheets/sass/stars.scss:1
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:98:in `with_mixin'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin.rb:54:in `check_for_updates'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sass-3.4.23/lib/sass/plugin/rack.rb:51:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/tempfile_reaper.rb:15:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/lint.rb:49:in `_call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/lint.rb:37:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/showexceptions.rb:24:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/commonlogger.rb:33:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/chunked.rb:54:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/content_length.rb:15:in `call'
+/Users/Owner/.rvm/gems/ruby-2.3.3/gems/rack-1.6.1/lib/rack/handler/webrick.rb:89:in `service'
+/Users/Owner/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/Users/Owner/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/Users/Owner/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'keyframes'.\A         on line 1 of ./public/stylesheets/sass/stars.scss, in `keyframes'\A         from line 1 of ./public/stylesheets/sass/stars.scss\A \A 1: @include keyframes(move-twink-back) {\A 2:   from {background-position:0 0;}\A 3:   to {background-position:-10000px 5000px;}\A 4: }\A 5: \A 6: @include keyframes(move-clouds-back) {"; }
