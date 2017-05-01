@@ -11,7 +11,8 @@
   </head>
   <body>
     <div class="container">
-      <header class="stars">
+      <header>
+        <div class="stars"></div>
         <div class="twinkling"></div>
         <div class="clouds"></div>
         <h1 class = "h1-name">
@@ -27,14 +28,14 @@
             <div class="line h horizontal"></div>
           </div>
         </div>
-        <!-- <nav class="nav">
+        <nav class="nav">
           <ul class="nav-links">
             <li><a class="<%= @index %>" href="/">About</a></li>
             <li><a class="<%= @resume %>" href="resume">Resume</li>
             <li><a class="<%= @projects %>" href="projects">Projects</a></li>
             <li><a href="http://operationstormthecastle.blogspot.com">Blog</a></li>
           </ul>
-        </nav> -->
+        </nav>
       </header>
 
 <%=yield%>
