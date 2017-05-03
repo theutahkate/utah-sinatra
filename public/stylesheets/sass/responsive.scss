@@ -29,32 +29,10 @@ body {
 
 footer {
   clear: left;
-  padding: 0%;
-  background-color: #000;
-}
-
-address {
-  width: 100%;
   text-align: center;
-  font-size: 3rem;
-  margin-top: 4%;
+  border-top: 1px solid #797774;
+  padding: 1rem 0;
 }
-
-address a {text-decoration: none; color: #fff;}
-
-address a:hover {color: #007ad8;}
-
-address i {padding: 0 3%;}
-
-address p {
-  text-align: center;
-  width: 100%;
-  font-style: normal;
-  color: #fff;
-  font-size: 1rem;
-  margin-top: 3%;
-}
-
 
 /*---^^^End Footer^^^---*/
 
