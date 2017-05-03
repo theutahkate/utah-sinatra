@@ -23,84 +23,6 @@ body {
 
 .cf {zoom: 1;}
 
-
-
-/*--------footer---------*/
-
-footer {
-  clear: left;
-  text-align: center;
-  border-top: 1px solid #797774;
-  padding: 1rem 0;
-}
-
-/*---^^^End Footer^^^---*/
-
-
-
-/*--------About--------*/
-.col-left {
-  width: 34%;
-  margin: 2% 2% 5% 3%;
-  float: left;
-  font-weight: 200;
-  color: #fff;
-  border-top: 1px solid #CBCACA;
-  border-bottom: 1px solid #CBCACA;
-}
-
-.col-right {
-  width: 56%;
-  margin: -2% 3% 0 2%;
-  float: left;
-  font-size: 1.25em;
-  font-weight: 200;
-}
-
-.col-right h2 {
-  font-size: 2.5em;
-  font-weight: 600;
-}
-
-.col-right p {text-align: justify;}
-
-.col-right p:last-child {
-  font-size: 1.35em;
-  font-weight: 400;
-  text-align: center;
-  margin-top: 10%;
-}
-
-p span {
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 400;
-  color: #951533;
-}
-
-aside figcaption {
-  background-color: #292929;
-  padding: 6% 4%;
-  border-bottom: 1px solid #CBCACA;
-  font-size: 1em;
-  margin-top: -2%;
-}
-
-.interests {
-  background-color: #292929;
-  padding: 6% 8%;
-}
-
-aside p {font-size: 1.25rem; line-height: 1.5em;}
-
-aside figure {margin: 0;}
-
-aside img {width: 100%; border-bottom: 1px solid #CBCACA;}
-
-
-/*-----^^^End About^^^-----*/
-
-
 /*-----Projects------*/
 
 figcaption {text-align: center;}
@@ -155,6 +77,16 @@ figcaption {text-align: center;}
 }
 /*---^^End Projects^^---*/
 
+
+/*--------footer---------*/
+
+footer {
+  text-align: center;
+  border-top: 1px solid #797774;
+  padding: 1rem 0;
+}
+
+/*---^^^End Footer^^^---*/
 
 
 /*----------Responsive < 94rem -----------*/

@@ -9,7 +9,7 @@ header {
 
 .h1-name {
   position: absolute;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #fff;
   text-align: left;
@@ -137,7 +137,7 @@ header {
 }
 
 
-//Responsive < 600px
+//Responsive Header < 600px
 
 .header-animation {
   @media screen and (max-width: 600px) {
