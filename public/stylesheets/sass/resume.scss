@@ -1,7 +1,9 @@
 .resume-container {
+  width: 90%;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
   color: #333;
+
   h3 {
     font-weight: 100;
     color: #007ad8;
@@ -88,4 +90,34 @@
 
 .degree-short {
   display: none;
+}
+
+@media screen and (max-width: 550px) {
+
+  .about p {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .job {
+    margin-left: 0;
+  }
+
+  .job--duties {
+    padding-left: 1rem;
+    font-size: .9rem;
+  }
+
+  .schools {
+    font-size: .75rem;
+    padding-left: 1rem;
+  }
+
+  .degree {
+    display: none;
+  }
+
+  .degree-short {
+    display: block;
+  }
 }
