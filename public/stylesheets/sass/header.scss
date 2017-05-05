@@ -139,49 +139,37 @@ header {
 
 
 //Responsive Header < 600px
+@media screen and (max-width: 600px) {
+  .h1-name {
+    font-size: 1.25rem;
+  }
 
-.header-animation {
-  @media screen and (max-width: 600px) {
+  .header-animation,
+  .animation-name,
+  .animation-lines {
     width: 310px;
   }
-}
 
-.animation-name {
-  @media screen and (max-width: 600px) {
-    width: 310px;
+  .animation-name {
     font-size: 100px;
   }
-}
 
-.animation-lines {
-  @media screen and (max-width: 600px) {
-    width: 310px;
-  }
-}
-
-.u {
-  @media screen and (max-width: 600px) {
+  .u {
     top: 40px;
     right: 302px;
   }
-}
 
-.t {
-  @media screen and (max-width: 600px) {
+  .t {
     top: 110px;
     left: 107px;
   }
-}
 
-.a {
-  @media screen and (max-width: 600px) {
+  .a {
     bottom: 157px;
     right: 108px;
   }
-}
 
-.h {
-  @media screen and (max-width: 600px) {
+  .h {
     top: 67px;
     left: 302px;
   }
