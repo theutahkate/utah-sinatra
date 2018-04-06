@@ -4,104 +4,59 @@ header {
   height: 100vh;
   margin-bottom: 1.25rem;
   border-bottom: 1px solid #797774;
-  padding: .5rem 1rem 1rem .5rem;
   overflow: hidden;
+}
+
+.water-img {
+  max-width: 100vw;
+  height: 100vh;
+  animation: water-img 6s ease-in-out alternate infinite;
+}
+
+@keyframes water-img {
+  0%,
+  100% {
+    transform: skew(0deg, 0deg) scale(1.35, 1.35);
+  }
+  50% {
+    transform: skew(2deg, 2deg) scale(1.35, 1.35);
+  }
 }
 
 .h1-name {
   position: absolute;
-  font-size: 1.5rem;
-  font-weight: 400;
+  top: 30%;
+  left: 2rem;
+  font-size: 3.5rem;
+  font-family: Merriweather, Cabin, Arial, sans-serif;
   color: #fff;
   text-align: left;
-  z-index: 100;
 }
 
 .h1-title {
   display: block;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 200;
-  font-style: normal;
-  color: #797774;
+  color: #678ebf;
+  font-family: Cabin;
 }
 
-.header-animation {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 436px;
-  height: 200px;
-  margin: 0 auto;
-  z-index: 100;
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  &:hover {
+    color: #678ebf;
+  }
 }
-
-.animation-name {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 436px;
-  height: 200px;
-  font-family: 'Archivo Black';
-  font-size: 140px;
-  color: white;
-  -webkit-text-fill-color: #000;
-  -webkit-text-stroke: 3px #fff;
-}
-
-.animation-lines {
-  left: 0;
-  top: 0;
-  position: absolute;
-  width: 436px;
-  height: 200px;
-}
-
-.line {
-  position: absolute;
-}
-
-.horizontal {
-  border-bottom: 3px solid #fff;
-  width: 100vw;
-}
-
-.vertical {
-  border-right: 3px solid #fff;
-  height: 100vh;
-}
-
-.u {
-  top: 56px;
-  right: 425px;
-}
-
-.t {
-  top: 154px;
-  left: 151px;
-}
-
-.a {
-  bottom: 141px;
-  right: 189px;
-}
-
-.h {
-  top: 116px;
-  left: 425px;
-}
-
-.nav a {text-decoration: none; color: #797774;}
-
-.nav a:hover {color: #fff;}
 
 .nav .selected, .nav .selected:hover {
-  color: #007AD8;
+  color: #678ebf;
 }
 
 .nav-links {
   position: absolute;
-  z-index: 100;
-  bottom: 1.5rem;
+  bottom: 2rem;
+  left: 2rem;
   margin: 0;
   text-align: left;
   padding-left: 0;
@@ -126,9 +81,9 @@ header {
   bottom: 1.5rem;
   right: 1.5rem;
   a {
-    color: #797774;
+    color: #fff;
     &:hover {
-      color: #007ad8;
+      color: #678ebf;
     }
   }
   .fa {
@@ -142,35 +97,5 @@ header {
 @media screen and (max-width: 600px) {
   .h1-name {
     font-size: 1.25rem;
-  }
-
-  .header-animation,
-  .animation-name,
-  .animation-lines {
-    width: 310px;
-  }
-
-  .animation-name {
-    font-size: 100px;
-  }
-
-  .u {
-    top: 40px;
-    right: 302px;
-  }
-
-  .t {
-    top: 110px;
-    left: 107px;
-  }
-
-  .a {
-    bottom: 157px;
-    right: 108px;
-  }
-
-  .h {
-    top: 67px;
-    left: 302px;
   }
 }
