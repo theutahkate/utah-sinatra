@@ -1,10 +1,14 @@
+// blue #4091d2
+// yellow #fae16c
+
 header {
-  text-align: center;
   width: 100vw;
   height: 100vh;
+  position: relative;
+  overflow: hidden;
   margin-bottom: 1.25rem;
   border-bottom: 1px solid #797774;
-  overflow: hidden;
+  text-align: center;
 }
 
 .water-img {
@@ -25,7 +29,7 @@ header {
 
 .h1-name {
   position: absolute;
-  top: 30%;
+  top: 4rem;
   left: 2rem;
   font-size: 3.5rem;
   font-family: Merriweather, Cabin, Arial, sans-serif;
@@ -35,43 +39,54 @@ header {
 
 .h1-title {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 200;
-  color: #678ebf;
+  color: #fae16c;
   font-family: Cabin;
+  line-height: 2;
+}
+
+.nav {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translate(-50%);
+  width: 18ch;
 }
 
 .nav a {
   text-decoration: none;
   color: #fff;
-  &:hover {
-    color: #678ebf;
+  border-color: transparent;
+  border-width: .125rem;
+  border-style: solid;
+  padding: .5rem;
+  &:hover,
+  &:focus {
+    color: #fff;
+    border-color: #fae16c;
   }
 }
 
-.nav .selected, .nav .selected:hover {
-  color: #678ebf;
+.nav .selected,
+.nav .selected:hover,
+.nav .selected:focus {
+  border-color: #fae16c;
 }
 
 .nav-links {
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  margin: 0;
+  // TODO: browser prefixes
+  display: flex;
+  justify-content: space-around;
   text-align: left;
-  padding-left: 0;
+  padding: 0;
 }
 
 .nav-links li {
-  display: block;
-  padding: 0 12px 0 5px;
-  list-style: none;
+  list-style-type: none;
   font-size: 1.25rem;
-  font-weight: 200;
-  &:last-child {
-    padding-right: 0;
-  }
 }
+
 
 // Contact
 
@@ -79,23 +94,15 @@ header {
   position: absolute;
   z-index: 100;
   bottom: 1.5rem;
-  right: 1.5rem;
+  right: 2rem;
   a {
     color: #fff;
     &:hover {
-      color: #678ebf;
+      color: #fae16c;
     }
   }
   .fa {
     margin-left: .8rem;
     font-size: 2rem;
-  }
-}
-
-
-//Responsive Header < 600px
-@media screen and (max-width: 600px) {
-  .h1-name {
-    font-size: 1.25rem;
   }
 }
