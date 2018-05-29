@@ -118,6 +118,24 @@ header {
   }
 }
 
+.next-icon {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.fa-stack {
+  font-size: 2rem;
+  color: #fff;
+  &:hover,
+  &:focus {
+    color: #797774;
+  }
+}
+
+
 // Contact
 
 .contact-icons {
