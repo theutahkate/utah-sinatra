@@ -27,7 +27,6 @@
 .animation-name { @include animation('fade-in 8s 1'); }
 .h1-name        { @include animation('delay-fade-in 5s 1'); }
 .nav-links      { @include animation('delay-fade-in 6s 1'); }
-.contact-icons  { @include animation('delay-fade-in 7s 1'); }
 
 
 // For chaining animations:

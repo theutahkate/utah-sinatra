@@ -144,26 +144,6 @@ header {
 }
 
 
-// Contact
-
-.contact-icons {
-  position: absolute;
-  z-index: 100;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  a {
-    color: #797774;
-    &:hover {
-      color: #007ad8;
-    }
-  }
-  .fa {
-    margin-left: .8rem;
-    font-size: 2rem;
-  }
-}
-
-
 //Responsive Header < 600px
 @media screen and (max-width: 600px) {
   .h1-name {
